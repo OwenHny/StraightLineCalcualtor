@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="buttonBrowse" min="-2" pref="97" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Header" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="labelFileChoose" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="textBoxFileChoose" alignment="0" min="-2" pref="356" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="labelScore" alignment="0" min="-2" pref="231" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="buttonCalc" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="labelMaxDistance" alignment="0" max="32767" attributes="0"/>
+                              <Component id="labelAvgDistance" alignment="0" pref="356" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Header" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="labelFileChoose" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+              <Component id="textBoxFileChoose" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="buttonBrowse" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="labelAvgDistance" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="labelMaxDistance" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="labelScore" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonCalc" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="java.awt.Label" name="Header">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Striaght Line Calculator"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.TextField" name="textBoxFileChoose">
+      <Properties>
+        <Property name="selectionStart" type="int" value="-1"/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="buttonBrowse">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Browse"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonBrowseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="java.awt.Label" name="labelFileChoose">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=".gpx file"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelP1" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelP2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="labelLat" alignment="0" max="32767" attributes="0"/>
+                      <Component id="textBoxP1Lat" alignment="0" max="32767" attributes="0"/>
+                      <Component id="textBoxP2Lat" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="labelLong" max="32767" attributes="0"/>
+                      <Component id="textBoxP1Long" alignment="0" max="32767" attributes="0"/>
+                      <Component id="textBoxP2Long" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="labelLat" min="-2" max="-2" attributes="0"/>
+                      <Component id="labelLong" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="textBoxP1Lat" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelP1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="textBoxP2Lat" min="-2" max="-2" attributes="0"/>
+                              <Component id="labelP2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="textBoxP1Long" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="textBoxP2Long" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.Label" name="labelLat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lat (in decimal)"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="labelLat"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.Label" name="labelLong">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Long (in decimal)"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="labelLong"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.TextField" name="textBoxP2Long">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="textBoxP2Long"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.TextField" name="textBoxP1Long">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="textBoxP2Lat"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.TextField" name="textBoxP1Lat">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="textBoxP1Lat"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.Label" name="labelP2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Point 2"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="point1Lable"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.TextField" name="textBoxP2Lat">
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="textBoxP1Long"/>
+          </AccessibilityProperties>
+        </Component>
+        <Component class="java.awt.Label" name="labelP1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Point 1"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="point1Lable"/>
+          </AccessibilityProperties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="java.awt.Label" name="labelAvgDistance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Average Distance: "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelMaxDistance">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Max Distance: "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Label" name="labelScore">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Score: "/>
+      </Properties>
+    </Component>
+    <Component class="java.awt.Button" name="buttonCalc">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="Calculate"/>
+      </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="buttonRun"/>
+      </AccessibilityProperties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCalcActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
